@@ -1,0 +1,18 @@
+﻿[
+  {
+    "key": "Email",
+    "value": "login-email",
+    "type": "id"
+  },
+  {
+    "key": "Password",
+    "value": "login-password",
+    "type": "id"
+  },
+  {
+    "key": "SubmitButton",
+    "value": "//button[@type='submit']",
+    "type": "xpath"
+  }
+
+]

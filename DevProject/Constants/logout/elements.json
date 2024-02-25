@@ -1,0 +1,33 @@
+﻿[
+    {
+        "key": "Email",
+        "value": "login-email",
+        "type": "id"
+    },
+    {
+        "key": "Password",
+        "value": "login-password",
+        "type": "id"
+    },
+    {
+        "key": "SubmitButton",
+        "value": "//button[@type='submit']",
+        "type": "xpath"
+    },
+    {
+        "key": "SubmitButton2",
+        "value": "//button[@type='submit']",
+        "type": "xpath"
+    },
+    {
+        "key": "ParolaText",
+        "value": "//button[@type='submit']",
+        "type": "xpath"
+    },
+    {
+        "key": "KeyOfThePassword",
+        "value": "1234567"
+       
+    }
+
+]
