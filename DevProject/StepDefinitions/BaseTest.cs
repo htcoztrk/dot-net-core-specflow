@@ -105,8 +105,8 @@ namespace DevProject.StepDefinitions
 
                // driver = new RemoteWebDriver(new Uri("http://10.1.33.193:4444/wd/hub"), capabilities, TimeSpan.FromSeconds(60));
                  //driver = new RemoteWebDriver(new Uri("https://hubdev.testinium.com/wd/hub"), capabilities, TimeSpan.FromSeconds(60));
-               driver = new RemoteWebDriver(new Uri("http://localhost:4444/wd/hub"), capabilities, TimeSpan.FromSeconds(60));
-
+              // driver = new RemoteWebDriver(new Uri("http://localhost:4444/wd/hub"), capabilities, TimeSpan.FromSeconds(60));
+               driver = new RemoteWebDriver(new Uri("http://host.docker.internal:4444/wd/hub"), capabilities, TimeSpan.FromSeconds(60));
                 isRemoteDriver = true;
                 Console.WriteLine("ChromeDriver woke");
 
