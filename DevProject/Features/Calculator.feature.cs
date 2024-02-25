@@ -74,12 +74,14 @@ namespace DevProject.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Demo Scenario GoTo URL and Send Key")]
-        public void DemoScenarioGoToURLAndSendKey()
+        [NUnit.Framework.DescriptionAttribute("Demo")]
+        [NUnit.Framework.CategoryAttribute("Deneme")]
+        public void Demo()
         {
-            string[] tagsOfScenario = ((string[])(null));
+            string[] tagsOfScenario = new string[] {
+                    "Deneme"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Demo Scenario GoTo URL and Send Key", null, tagsOfScenario, argumentsOfScenario, featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Demo", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 3
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -90,23 +92,14 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 9
+#line 5
  testRunner.And("Wake up the driver", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "* ");
 #line hidden
-#line 11
+#line 6
  testRunner.And("Go to https://www.kitapyurdu.com/index.php?route=account/login Url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "* ");
 #line hidden
-#line 12
- testRunner.And("Send username@email.com key to Email element", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "* ");
-#line hidden
-#line 13
- testRunner.And("Send MyVerySecretPassword key to Password element", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "* ");
-#line hidden
-#line 14
+#line 7
  testRunner.And("Wait 3 seconds", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "* ");
-#line hidden
-#line 15
- testRunner.And("Click SubmitButton element", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "* ");
 #line hidden
             }
             this.ScenarioCleanup();
