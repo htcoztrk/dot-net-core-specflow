@@ -6,6 +6,7 @@ Scenario: Demo
 	* Go to https://www.kitapyurdu.com/index.php?route=account/login Url
 	* Wait 3 seconds
 
+@ignore
 @skipdeneme
 Scenario: skipdeneme
 
