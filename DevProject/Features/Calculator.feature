@@ -21,7 +21,6 @@ Scenario: skipdeneme
 @FailDeneme
 Scenario: FailDeneme
 	* Wake up the driver
-	* deneme skip
 	* Go to https://www.kitapyurdu.com/index.php?route=account/login Url
     * Get deneme dictionary folders json
 	* Wait 3 seconds
