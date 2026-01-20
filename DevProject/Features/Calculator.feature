@@ -6,6 +6,15 @@ Scenario: Demo
 	* Go to https://www.kitapyurdu.com/index.php?route=account/login Url
 	* Wait 3 seconds
 
+@Uzun
+Scenario: Uzun
+	* Wake up the driver
+	* Go to https://www.kitapyurdu.com/index.php?route=account/login Url
+	* Wait 3 seconds
+	* Go to https://www.amazon.com.tr/
+	* Wait 2 seconds
+	* Go to https://www.trendyol.com/
+	* Wait 2 seconds
 @ignore
 @skipdeneme
 Scenario: skipdeneme
